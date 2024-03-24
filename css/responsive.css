@@ -1,0 +1,117 @@
+body{padding: 0;
+    margin: 0;}
+.conteudo {
+    border: px solid green;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media (min-width: 576px) {
+    .conteudo {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .conteudo {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .conteudo {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 1100px) {
+    .conteudo {
+      max-width: 1000px;
+    }
+  }
+  @media (min-width: 1168px) {
+    .conteudo {
+      max-width: 1050px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .conteudo {
+      max-width: 1100px;
+    }
+  }
+  @media (min-width: 1250px) {
+    .conteudo {
+      max-width: 1150px;
+    }
+  }
+  @media (min-width: 1300px) {
+    .conteudo {
+      max-width: 1250px;
+    }
+  }
+  @media (min-width: 0px) {
+    .navbar-menus-section {
+      display: none;
+    }
+  }
+
+  @media (min-width: 632px) {
+    .navbar-menus-section {
+        display: inline-block;
+      max-width: 75%;
+    }
+  }
+  @media (min-width: 632px) {
+    .dropdown-button {
+        display: none;
+    }
+  }
+ 
+  @media (min-width: 632px) {
+    .dropdown-button-ded {
+        display: none;
+    }
+    .navbar-head-ded{
+        font-family: var(--secundary-font);
+    letter-spacing:4px;
+    font-size: 30px;
+    }
+    .navbar-menus-section-ded {
+        position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    right:-50%;
+    width:75% ;
+    border: px solid green;
+        
+    }
+    .navbar-menus-ul-ded {
+        float: right;
+        margin: 0; padding: 0;
+        border: px solid #000;
+    }
+    .navbar-menu1-ded{
+        display: inline-block;
+    margin-left: 40px;
+    }
+    .navbar-menu2-ded{
+        display: inline-block;
+    margin-left: 40px;
+    }
+    .navbar-menu3-ded{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    #navbar-menu4{
+        display: inline-block;
+        margin-left: 40px;
+    }
+  }
+  
+
+  .bord {
+    border: 1px solid red;
+  }

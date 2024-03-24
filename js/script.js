@@ -1,0 +1,32 @@
+function dropdown() {
+    document.getElementById("dropdown-button").style.display="none";
+    document.getElementById("dropdown-button2").style.display="inline-block";
+    document.getElementById("navbar-head").classList.add("navbar-head-ded");
+    document.getElementById("navbar-menus-section").classList.remove("navbar-menus-section");
+    document.getElementById("navbar-menus-ul").classList.remove("navbar-menus-ul");
+    document.getElementById("navbar-menu1").classList.remove("navbar-menu");
+    document.getElementById("navbar-menu2").classList.remove("navbar-menu");
+    document.getElementById("navbar-menu3").classList.remove("navbar-menu");
+    document.getElementById("navbar-menu4").classList.remove("navbar-menu");
+    document.getElementById("navbar-menus-section").classList.add("navbar-menus-section-ded");
+    document.getElementById("navbar-menus-ul").classList.add("navbar-menus-ul-ded");
+    document.getElementById("navbar-menu1").classList.add("navbar-menu1-ded")
+    document.getElementById("navbar-menu2").classList.add("navbar-menu2-ded")
+    document.getElementById("navbar-menu3").classList.add("navbar-menu3-ded")
+}
+function dropdown_hide() {
+    document.getElementById("dropdown-button2").style.display="none";
+    document.getElementById("dropdown-button").style.display="inline";
+    document.getElementById("navbar-head").classList.remove("navbar-head-ded");
+    document.getElementById("navbar-menus-section").classList.add("navbar-menus-section");
+    document.getElementById("navbar-menus-ul").classList.add("navbar-menus-ul");
+    document.getElementById("navbar-menu1").classList.add("navbar-menu");
+    document.getElementById("navbar-menu2").classList.add("navbar-menu");
+    document.getElementById("navbar-menu3").classList.add("navbar-menu");
+    document.getElementById("navbar-menu4").classList.add("navbar-menu");
+    document.getElementById("navbar-menus-section").classList.remove("navbar-menus-section-ded");
+    document.getElementById("navbar-menus-ul").classList.remove("navbar-menus-ul-ded");
+    document.getElementById("navbar-menu1").classList.remove("navbar-menu1-ded")
+    document.getElementById("navbar-menu2").classList.remove("navbar-menu2-ded")
+    document.getElementById("navbar-menu3").classList.remove("navbar-menu3-ded")
+  }

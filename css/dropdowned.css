@@ -1,0 +1,29 @@
+.navbar-head-ded{
+    display: inline-block;
+}
+.dropdown-button-ded {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  right: 0;
+    
+}
+.navbar-menus-section-ded {
+    display: inline-block;
+    width: 100%;
+    display: inline-block;
+    
+}
+.navbar-menus-ul-ded {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.navbar-menu1-ded{
+    margin-bottom:7px;
+}
+.navbar-menu2-ded{
+    margin-bottom:7px;
+}
+.navbar-menu3-ded{
+    margin-bottom:7px;
+}

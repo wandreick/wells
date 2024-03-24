@@ -8,11 +8,9 @@
     src: url("../font/tt_commons_pro_regular.otf") format("opentype");
 }
 :root {
-    --body-color:rgb(250, 250, 250);
+    --body-color:#ddd0c8;
     --body-font:tt-commons;
     --secundary-font:manier;
-    --navbar-text-color:#000000;
-    --navbar-bg-color:/*rgba(0, 0, 0, 0.226)*/;
 }
 body {
     background-color: var(--body-color);
@@ -23,29 +21,10 @@ body {
 .otherfont{
     font-family:Arial;
 }
-.navbar-external {
-    /*position: fixed;
-    width: 100%;
-    display: inline-block;
-    z-index: 2;*/
-    background-color: var(--navbar-bg-color);
-    color: var(--navbar-text-color);
-    height:;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: px solid green;
-    margin-right: auto;
-    margin-left: auto;
-    /*margin-bottom: 300px;*/
-    padding-left: 15px;
-    padding-right: 15px;
-
-}
 .navbar{
+   margin-top: 36px;
    margin-left: 0;
    position: relative;
-   padding-left: 10px;
-   padding-right: 10px;
 }
 .navbar-head{
     font-family: var(--secundary-font);
@@ -63,7 +42,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
-    right:-35%;
+    right:-37.5%;
     width:75% ;
     border: px solid green;
 }
@@ -81,54 +60,6 @@ body {
     margin-top: 1px;
 
 }
-ul,section,div,nav,main{
-    border: 1px solid rgba(255, 0, 0, 0);
+ul,section,div,nav{
+    border: px solid red;
 }
-.corpo {
-    z-index: 2;
-    border: 1px solid rgba(0, 0, 0, 0);
-}
-#initial-section{
-    /*margin-top: 80px;*/
-    padding-top: 40px;
-    padding-bottom: 0px;
-    position: relative;
-
-}
-#initial-scale-content{
-    height: 500px;
-}
-
-.h1-initial-scale{
-    font-size: 75px;
-    border:1px solid rgba(255, 0, 0, 0);
-    margin-top: -1px;
-}
-.button-1{
-    padding: 22px;
-    border: 1px solid #000;
-    border-radius: 40px;
-    text-decoration: none;
-    color: #000;
-}
-.button-1:hover {
-    background-color: rgba(0, 0, 0, 0.226);
-    color: whiete;
-}
-.button-1:active {
-    color:;
-}
-.second-scale {
-    position: relative;
-    background-color: #16338ab4;
-    color: whitesmoke;
-    border: 1px solid rgba(0, 255, 0, 0);
-    height: 600px;
-    text-align: center;
-}
-.second-scale>h1 {display: inline-block;
-        color: #00000070;
-        position: absolute; 
-        top: 50%;
-        transform: translate(-50%,-50%);
-    }
